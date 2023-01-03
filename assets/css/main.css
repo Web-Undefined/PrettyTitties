@@ -3427,16 +3427,51 @@ body.is-touch .poptrox-popup .closer {
     max-width: 35em;
 }
 
+#logo-landing {
+    max-width: 55vw;
+    margin-inline: auto;
+}
+#nav-logo {
+    margin-bottom: 0;
+}
+
+#mc-embedded-subscribe {
+    background-color: #3bbbc7;
+}
+#mce-EMAIL {
+    max-width: 40vw;
+    margin: 0 auto;
+    margin-bottom: 1em;
+}
+#full-width {
+    max-width: 75vw;
+    padding-bottom: 2em;
+    display: block;
+    margin: 0 auto;
+}
+
 @media screen and (max-width: 960px) {
     .colTest {
         flex: 100%;
         max-width: 80%;
+    }
+    #mce-EMAIL {
+        max-width: 60vw;
+    }
+    #full-width {
+        max-width: 85vw;
     }
 }
 @media screen and (max-width: 600px) {
     .colTest {
         flex: 100%;
         max-width: 100%;
+    }
+    #mc-embedded-subscribe {
+        padding: 0 1.5em;
+    }
+    #mce-EMAIL {
+        max-width: 75vw;
     }
 }
 
