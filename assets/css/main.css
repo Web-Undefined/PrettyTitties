@@ -3393,11 +3393,23 @@ body.is-touch .poptrox-popup .closer {
     transition: filter 0.3s;
     background: #fff;
     padding: 30px;
-    border-radius: 2.5%;
-    filter: drop-shadow(0 0 0.3125rem #a0cbcf);
+    /* border-radius: 2.5%; */
+    /* filter: drop-shadow(0 0 0.3125rem #a0cbcf); */
+    /* border: 5px solid;
+    border-image: linear-gradient(45deg, purple, orange) 1; */
+    background: linear-gradient(#fff, #fff) padding-box,
+        linear-gradient(45deg, slateblue, coral) border-box;
+    border: 5px solid transparent;
+    border-radius: 35px;
 }
 .testimonial:hover {
-    filter: drop-shadow(0 0 1.5rem #4fc2cd);
+    filter: drop-shadow(0 0 0.75rem #cd4f4f);
+}
+.colored-cyan {
+    background-color: #4fc2cd;
+}
+.colored-cyan:hover {
+    background-color: #34959e;
 }
 .name {
     font-size: 1.25em;
@@ -3418,6 +3430,14 @@ body.is-touch .poptrox-popup .closer {
         rgba(255, 255, 255, 1) 0%,
         rgba(255, 255, 255, 1) 50%,
         rgba(245, 245, 245, 1) 100%
+    );
+}
+.gradient-backdrop-2 {
+    background: linear-gradient(
+        0deg,
+        rgb(253, 246, 246) 0%,
+        rgb(238, 241, 239) 50%,
+        rgb(243, 241, 245) 100%
     );
 }
 
